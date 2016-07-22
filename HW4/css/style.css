@@ -16,17 +16,17 @@ header{
 }
 .logo{
 	width: 300px;
-	margin-left: 30px;
+  margin-left: 30px;
+  float: left;
 }
 .img{
 	width: 271px;
   height: 157px;
-  margin: 15px 0px 0px 40px;
+  margin: 7px 0px 0px 0px;
 }
 .tel{
 	float: right;
 	margin: 10px 40px 30px 0;
-	/*font-family: Arial, sans-serif;*/
 	font-size: 10pt;
 	}
 .bold{
@@ -39,7 +39,7 @@ header{
 .link{
 	float: right;
 	clear: both;
-	margin: -10px 40px 0 0;
+  margin: -59px 40px 14px 0;
 }
 
 .link1{
@@ -50,10 +50,10 @@ header{
 	color: #41a1b9;
 }
 .link img{
-    width: auto;
+  width: auto;
 }
 .link2{
-		color: #41a1b9;
+	color: #41a1b9;
 }
 .foto{
 	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.43);
@@ -61,7 +61,12 @@ header{
   height: auto;
 }
 .foto1{
-		padding: 1px 0 0 0;
+	padding: 1px 0 0 0;
+}
+.menu1{
+  background-image: -webkit-linear-gradient(top, #303030, #373737);
+  background-image: -o-linear-gradient(top, #303030, #373737);
+  background-image: linear-gradient(top, #303030, #373737);
 }
 ul{
   display: block;
@@ -75,27 +80,24 @@ ul:after{
   clear: both;
   float: none;
 }
-ul.menu > li{
+.menu > li{
   float: left;
   position: relative;
   width: 14.28571428571429%;
   text-align: center;
+  
 }
-ul.menu > li > a{
+.menu > li > .str{
+  background: url('../img/str.png') no-repeat right 16px;
+}
+.menu > li > div > a{
   display: block;
   padding: 10px;
   color: white;
-	background-image: -webkit-linear-gradient(top, #303030, #373737);
-	background-image: -o-linear-gradient(top, #303030, #373737);
-	background-image: linear-gradient(top, #303030, #373737);
-  text-decoration: none;
-  font-size: 14pt;
+	text-decoration: none;
+  font-size: 13pt;
 }
-ul.menu > li > a:hover{
-  background-color: black;
-
-}
-ul.submenu1{
+.submenu1{
   display: none;
   position: absolute;
   width: 200px;
@@ -104,10 +106,10 @@ ul.submenu1{
   background-color: white;
   border-top: 1px solid #373737;
 }
-ul.submenu1 > li{
+.submenu1 > li{
   display: block;
 }
-ul.submenu1 > li > a{
+.submenu1 > li > a{
   display: block;
   padding: 10px;
   color: white;
@@ -116,14 +118,12 @@ ul.submenu1 > li > a{
   text-align: left;
   font-size: 14pt;
 }
-ul.submenu1 > li > a:hover{
+.submenu1 > li > a:hover{
   text-decoration: underline;
 }
-
-ul.menu > li:hover > ul.submenu1{
+.menu > li:hover > .submenu1{
   display: block;
 }
-
 .conteiner{
 	background: white;
   float: left;
@@ -139,8 +139,8 @@ ul.menu > li:hover > ul.submenu1{
   border: 1px solid #c7cacf;
 }
 .center{
-	  width: 60%;
-    float: left;
+  width: 60%;
+  float: left;
 }
 .h1{
 	text-align: center;

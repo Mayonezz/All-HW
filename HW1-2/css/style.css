@@ -2,28 +2,46 @@ body {
 	height: 100%;
 	width: 500px;
 }
-
+.a4{
+	background: #c7c7c7;
+	border: 1px solid gray;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(168,166,191,1);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(168,166,191,1);
+	box-shadow: 0px 0px 12px 0px rgba(168,166,191,1);
+}
+img{
+	border: 1px solid gray;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
 .header {
 	text-align: center;
 	border-bottom-width: 1px; 
 	border-bottom-style: solid;
-	border-bottom-color: black;
+	border-bottom-color: gray;
 }
-
+.container{
+	text-align: center;
+}
+.container ul{
+	padding-left: 237px;
+}
+ul li{
+	width: 36px;
+}
 .foto {
 	width: 150px;
 	height: 170px;
 }
 
-.learn {
+.learn,
+.kontakt{
 	border-bottom-width: 1px; 
 	border-bottom-style: solid;
-	border-bottom-color: black;
+	border-bottom-color: gray;
 }
-
-.kontakt {
-	border-bottom-width: 1px; 
-	border-bottom-style: solid;
-	border-bottom-color: black;
+.feedback{
+  height: 75px;
 }
-

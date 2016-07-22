@@ -1,0 +1,695 @@
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url(../fonts/lsansuni-webfont.woff2) format('woff2'),
+         url(../fonts/lsansuni-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    width: 912px;
+    height: auto;
+    margin: 0 45px 0 45px;
+    font-family: "Lucida Sans Unicode";
+}
+header{
+    display: inline-flex;
+}
+.header{
+    width: 297px;
+    height: 25px;
+    color: rgb(94, 105, 109);
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.header img{
+	margin: 4px -2px -4px 4px;
+}
+.form{
+    width: 495px;
+    height: 26px;
+    background-color: rgb(177, 188, 192);
+    background-image: linear-gradient(180deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(12, 50, 86) 100%);
+    border-radius: 4px;
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+    color: white;
+    margin: 0px 0px 7px 15px;
+}
+.form img{
+    margin: 4px 0px -4px 7px;
+}
+.form input{
+    width: 111px;
+    height: 11px;
+    background-color: white;
+    border: 1px solid rgb(155, 161, 163);
+    margin: 0px 4px 0px 0;
+    padding: 3px 0px 0px 0px;
+}
+.form button{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-family: "Lucida Sans Unicode";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+    vertical-align: top;
+}
+.enter{
+    margin: -2px -9px 0px -9px;
+}
+.registration{
+    margin: -2px 0px 0px -9px;
+}
+.form a{
+    color: rgb(191, 191, 191);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 0 7px;
+    vertical-align: top;
+}
+.navi{
+    width: 77px;
+    height: 21px;
+    background-color: white;
+    border: 1px solid rgb(189, 196, 199);
+    border-radius: 23px;
+    margin: 1px 0px 0px 16px;
+}
+.navi a{
+    width: 12px;
+    height: 10px;
+    padding-left: 9px;
+}
+.navi .ttt{
+    padding-left: 4px;
+}
+.logo{
+    margin: 3px 0px 1px -2px;
+}
+nav{
+    width: 909px;
+    height: 34px;
+    background-color: white;
+    background-image: linear-gradient(to top, black 0%, rgb(87, 96, 104) 100%);
+    border: 1px solid rgb(13, 22, 66);
+    border-radius: 5px;
+    box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+    display: table;
+    margin: 2px 0px 0 -2px;
+}
+nav ul{
+    display: inline-flex;
+    margin: 4px 0px 0 140px;
+    width: 483px;
+    height: 12px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(177, 188, 192);
+}
+nav ul li{
+	text-align: center;
+    width: 101px;
+    height: 26px;
+}
+nav ul li:hover{
+    height: 26px;
+    background-color: rgb(246, 3, 3);
+    background-image: linear-gradient(180deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(12, 50, 86) 100%);
+    color: white;
+    border-radius: 11px;
+}
+nav div{
+    float: right;
+    color: rgb(146, 155, 159);
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 4px 0px 0px 9px;
+}
+.information img{
+	margin: 2px 2px 0px 0;
+}
+.tov span{
+    color: rgb(13, 90, 143);
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+}
+.tov-num{
+    margin: 0 14px 0 -2px;
+}
+.tov-cost{
+    margin: 0px 17px 0px 8px;
+}
+
+/*для всего блока поиска*/
+
+.poisk{
+    display: inline-flex;
+    margin: 9px 0px 13px 2px;
+}
+
+/*первая форма*/
+
+.first-form{
+    width: 415px;
+    height: 132px;
+    margin: 3px 0 0 0;
+    background-color: white;
+    border: 1px solid rgb(156, 156, 157);
+    border-radius: 17px;
+    box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
+}
+.select-wrapper{
+	vertical-align: top;
+    padding: 7px 0px 0px 17px;
+}
+.title{
+    color: rgb(21, 68, 103);
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 900;
+    margin: 0;
+	text-align: center;
+    padding: 0px 8px 0 0;
+}
+.select-element{
+	display: table-cell;
+	vertical-align: top;
+	position: relative;
+}
+.d{
+    margin: -4px 138px 0px 0;
+}
+.sh{
+    margin: -6px 11px 0 0px;
+}
+.select-element h3{
+    color: rgb(21, 68, 104);
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 28px;
+}
+.select-element select{
+    width: 101px;
+    height: 17px;
+    background-color: white;
+    box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+    border-bottom: none;
+	display: inline-block;
+}
+.select-element select:focus{
+	outline: 0;
+}
+.select-element span{
+    width: 72px;
+    height: 9px;
+    color: #77858b;
+    font-family: Arial;
+    font-size: 10px;
+	display: inline-block;
+}
+.select-element span b{
+	color: black;
+}
+.select-element p{
+	margin: 0;
+	margin-bottom: 1px;
+}
+.select-element .year{
+    width: 56px;
+    margin: 0px 0 3px 0;
+}
+h3{
+	position: absolute;
+	right: 0;
+	top: -20px;
+}
+.control{
+	text-align: right;
+    width: 380px;
+    padding: 5px 0 0 0;
+    font-size: 10pt;
+}
+
+/*Вторая форма*/
+
+.second-form{
+    width: 191px;
+    height: 137px;
+    background-color: white;
+    border: 1px solid rgb(156, 156, 157);
+    border-radius: 17px;
+    box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+    margin-left: 13px;
+}
+.title2{
+    color: rgb(21, 68, 103);
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 900;
+    margin: 0;
+    margin: 5px 0 0 9px;
+}
+.select-wrapper2{
+	vertical-align: top;
+    padding: 7px 0px 0px 12px;
+}
+.select-element2{
+	display: table-cell;
+	vertical-align: top;
+	position: relative;
+}
+.select-element2 h3{
+    color: rgb(21, 68, 104);
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 28px;
+}
+.select-element2 select{
+    width: 49px;
+    height: 17px;
+    background-color: white;
+    box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+    border-bottom: none;
+	display: inline-block;
+}
+.select-element2 select:focus{
+	outline: 0;
+}
+.select-element2 span{
+    width: 72px;
+    height: 9px;
+    color: #77858b;
+    font-family: Arial;
+    font-size: 10px;
+	display: inline-block;
+    vertical-align: top;
+}
+.select-element2 span b{
+	color: black;
+}
+.select-element2 p{
+	margin: 0;
+	margin-bottom: 0px;
+}
+.select-element2 .select{
+    width: 53px;
+    height: 17px;
+    background-color: white;
+    box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+    margin: 0 0 6px 0px;
+}
+.second-form span{
+	width: 40px;
+    margin: 7px 0px 0px 1px;
+}
+.qqq1{
+    margin: 7px 0 0 -2px;
+}
+.qqq{
+	margin: 0px -3px 0px 44px;
+}
+.control2{
+	text-align: right;
+    margin: -5px 6px 0 0;
+    font-size: 10pt;
+}
+
+/*третья форма*/
+
+.third-form{
+    width: 266px;
+    height: 135px;
+    background-color: white;
+    border: 1px solid rgb(156, 156, 157);
+    border-radius: 14px;
+    box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+    margin: 0px 0 0 10px;
+}
+.title3{
+    text-align: left;
+    margin: 3px 0px 0 10px;
+    color: rgb(21, 68, 103);
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 900;
+}
+.select-wrapper3{
+    vertical-align: top;
+    padding: 6px 0px 0px 17px;
+}
+.select-element3{
+    width: 150px;
+    float: left;
+}
+.select-element3 select{
+    width: 57px;
+    height: 17px;
+    background-color: white;
+    box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+    border-bottom: none;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.select-element3 select:focus{
+    outline: 0;
+}
+.select-element3 span{
+    width: 85px;
+    height: 9px;
+    color: #77858b;
+    font-family: Arial;
+    font-size: 10px;
+    display: inline-block;
+}
+.select-element3 span b{
+    color: black;
+}
+.select-element3 p{
+    margin: 0;
+    margin-bottom: 1px;
+}
+.select-element3-1{
+    float: right;
+    width: 81px;
+    margin: -20px 0 0 0;
+}
+.select-element3-1 span{
+    width: 85px;
+    height: 9px;
+    color: #77858b;
+    font-family: Arial;
+    font-size: 10px;
+    display: inline-block;
+}
+.select-element3-1 span b{
+    color: black;
+}
+.select-element3-1 select{
+    width: 57px;
+    height: 17px;
+    background-color: white;
+    box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+    border-bottom: none;
+    display: inline-block;
+    margin: 0 0 0 3px;
+}
+.select-element3-1 select:focus{
+    outline: 0;
+}
+.diski-font{
+	color: #77858b;
+    font-family: Arial;
+    font-size: 9px;
+}
+.control3{
+    text-align: right;
+    padding: 90px 17px 0px 0px;
+    font-size: 10pt;
+}
+
+/*контент весь*/
+
+.row1{
+display: inline-block;
+}
+
+/*левая часть контента*/
+
+.catalog{
+    width: 181px;
+    height: 24px;
+    background-color: white;
+    border: 1px solid rgb(121, 135, 141);
+    border-radius: 14px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+    display: inline-flex;
+    margin: 3px 0px 3px -3px;
+}
+.catalog img{
+    padding: 1px 3px 2px 2px;
+}
+.shini img,
+.diski img,
+.bolty img{
+    padding: 2px 0 0 3px;
+}
+.shini div,
+.diski div,
+.bolty div{
+    margin: 4px 0 0 4px;
+}
+.shini,
+.diski,
+.bolty{
+	width: 146px;
+    height: 27px;
+    background-color: white;
+    border: 1px solid rgb(121, 135, 141);
+    border-radius: 14px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+	display: -webkit-box;
+    margin: 10px 0 0 0;
+}
+#mycb,
+#mycb1,
+#mycb2,
+#mycb3,
+#mycb4,
+#mycb5,
+#mycb6,
+#mycb7,
+#mycb8,
+#mycb9,
+#mycb10,
+#mycb11,
+#mycb12{
+	display: none;
+}
+.lable{
+    display: table-caption;
+    margin: -8px 0 0 33px;
+    width: 128px;
+    height: 99px;
+}
+.lb{
+	color: rgb(70, 89, 97);
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+}
+.lb span{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    background: url(../img/select1.png) no-repeat left center;
+    width: 124px;
+    margin: 13px 0 0px 1px;
+}
+.lb input:checked + span{
+	background: url(../img/select2.png) no-repeat left center;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	color: #0c3256;
+}
+
+/*средняя часть контента*/
+
+.table1{
+    width: 526px;
+    height: 627px;
+    background-color: white;
+    background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+    border-radius: 3px;
+    text-align: center;
+    margin: 0px 0 0 10px;
+}
+.title1{
+    width: 103px;
+    height: 15px;
+    font-family: "Lucida Sans Unicode";
+    font-weight: 400;
+    line-height: 13px;
+    color: rgb(32, 105, 136);
+    font-size: 15px;
+    margin: 7px 0 0 33px;
+}
+.text{
+    width: 158px;
+    height: 28px;
+    font-family: "Lucida Sans Unicode";
+    font-weight: 400;
+    line-height: 13px;
+    color: rgb(31, 37, 40);
+    font-size: 13px;
+    padding: 0px 0 0 6px;
+}
+.foto{
+    width: 128px;
+    height: 125px;
+    background-color: white;
+    border: 1px solid rgb(164, 174, 177);
+    border-radius: 7px;
+    margin: -14px 0 0px 18px;
+}
+.price{
+    width: 174px;
+    height: 15px;
+    color: rgb(17, 65, 101);
+    font-family: Arial;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 30px;
+    font-size: 17px;
+}
+.price span{
+	font-size: 12px;
+}
+.foto img{
+	    margin: 5px 0 0 0;
+}
+
+/*правая часть контента*/
+
+.catalog-l{
+    width: 178px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid rgb(121, 135, 141);
+    border-radius: 14px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+    margin: 0 0 16px 9px;
+    display: -webkit-box;
+}
+.catalog-l img,
+.shini-l img,
+.diski-l img{
+    margin: 1px 5px 0 2px;
+}
+.shini-l,
+.diski-l{
+    width: 133px;
+    height: 27px;
+    background-color: white;
+    border: 1px solid rgb(121, 135, 141);
+    border-radius: 14px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    display: -webkit-box;
+    margin: 8px 0 -12px 24px;
+}
+#mycb13,
+#mycb14,
+#mycb15,
+#mycb16,
+#mycb17,
+#mycb18{
+	display: none;
+}
+.lable-l{
+	display: table-caption;
+    margin: 22px 0 0px 33px;
+}
+.lb-l span{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    background: url(../img/checkbox.png) no-repeat left center;
+    width: 100px;
+    margin: 0px 0px 11px 2px;
+    color: #465961;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    padding: 0 0 0 22px;
+}
+
+.lb-l input:checked + span{
+	background: url(../img/checkbox.png) no-repeat left center;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+}
+.col-md-4 button{
+    width: 82px;
+    height: 26px;
+    background-color: black;
+    background-image: linear-gradient(180deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(12, 50, 86) 100%);
+    border: 1px solid rgb(167, 171, 174);
+    border-radius: 10px;
+    color: rgb(229, 233, 234);
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(190,192,193,0.5);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(190,192,193,0.5);
+    box-shadow: 3px 3px 3px 0px rgba(190,192,193,0.5);
+    margin: 11px 0 0 33px;
+}
+	
+/*бренды*/
+
+.brendy{
+    padding: 37px 0 0 115px;
+}
+
+/*футер*/
+
+footer{
+	width: 909px;
+    height: 101px;
+    background-color: rgb(33, 58, 77);
+    border: 1px solid rgb(36, 42, 60);
+    display: table;
+    margin: 22px 0 0 -2px;
+}
+footer ul{
+	display: inline-flex;
+    width: 339px;
+    height: 11px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(190, 198, 201);
+    margin: 8px 0 0 297px;
+}
+footer ul li{
+    padding: 0px 14px 0px 11px;
+}
+footer ul li:hover{
+    color: rgb(82, 171, 203);
+}
+
+footer div{
+	width: 165px;
+    height: 9px;
+    color: rgb(127, 71, 64);
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 11px 0 0 381px;
+}

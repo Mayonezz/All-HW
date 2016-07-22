@@ -1,4 +1,3 @@
-
 @font-face{
   font-family: 'helvetica_neueregular';
   src: url('../fonts/helveticaneue-thin-webfont.eot');
@@ -85,7 +84,6 @@ li:hover{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-
 }
 .cadastre{
 	background: rgba(0, 0, 0, 0.5);
@@ -131,7 +129,7 @@ li:hover{
 .input{
 	color: white;
 	font-size: 10pt;
-    padding-bottom: 35px;
+  padding-bottom: 35px;
 }
 .bluefont{
 	color: white;
